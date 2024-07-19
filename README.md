@@ -1,29 +1,13 @@
 
 # Talk to your PDF
 
-![banner](assets/talk_to_your_pdf_banner.png)
-![Python version](https://img.shields.io/badge/Python%20version-3.11%2B-lightgrey)
-![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/Talk-to-your-PDF)
-![GitHub repo size](https://img.shields.io/github/repo-size/semasuka/Talk-to-your-PDF)
-![License](https://img.shields.io/badge/License-MIT-green)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wF6NBLDt_SDy1aBeTxNvq7ZIi_bo7nLu)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://talk-to-your-pdf.streamlit.app/)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
-Badge [source](https://shields.io/)
-
 ## Overview
 
 "Talk to your PDF" is an interactive app that allows users to upload PDF documents and ask questions about their content. Utilizing advanced NLP techniques like retrieval augmented generation (RAG), the app extracts text from the PDFs, generates embeddings of the PDF text and question, and provides relevant responses to user queries without the need for manual document navigation. This app is built from scratch, no framework (like LangChain) used.
 
-## Authors
-
-- [@semasuka](https://www.github.com/semasuka)
-
 ## Table of Contents
 - [Talk to your PDF](#talk-to-your-pdf)
   - [Overview](#overview)
-  - [Authors](#authors)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Tech Stack](#tech-stack)
@@ -38,7 +22,7 @@ Badge [source](https://shields.io/)
   - [App deployed on Streamlit](#app-deployed-on-streamlit)
   - [Repository structure](#repository-structure)
   - [Contributing](#contributing)
-  - [License](#license)
+ 
 
 ## Features
 
@@ -61,7 +45,7 @@ Badge [source](https://shields.io/)
 
 ## How RAG Works
 
-![How RAG works](assets/rag_explained.jpeg)
+![How RAG works]([assets/rag_explained.jpeg](https://github.com/aryan-norbert/Talk-to-your-pdf/blob/main/rag_explained.jpeg))
 [Image credit](https://towardsdatascience.com/why-your-rag-is-not-reliable-in-a-production-environment-9e6a73b3eddb)
 
 **Indexing**
@@ -98,7 +82,7 @@ Badge [source](https://shields.io/)
 
 ## How the app Works
 
-![How the app works](assets/how_it_works.png)
+![How the app works](https://github.com/aryan-norbert/Talk-to-your-pdf/blob/main/how_it_works.png)
 
 
 #### Step 1: File Upload
@@ -321,7 +305,7 @@ This guide will walk you through setting up the "Talk to Your PDF" project from 
 
 ## App deployed on Streamlit
 
-![Streamlit GIF](https://github.com/semasuka/Talk-to-your-PDF/blob/main/assets/git_streamlit.gif)
+![Streamlit GIF](https://github.com/aryan-norbert/Talk-to-your-pdf/blob/main/git_streamlit.gif)
 
 Video to gif [tool](https://www.img2go.com/)
 
